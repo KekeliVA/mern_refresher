@@ -19,3 +19,5 @@ FLOW OF OPERATIONS
 - in order to interact with the db, we need to create a model for each resource
   - naming conventions for models are uppercase
   - models contain a schema, which are properties we want a resource to have
+- my users.js route is sending a 200 result even though I'm not giving it all the properties the model needs
+  - didn't restart the node server after changes
